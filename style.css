@@ -1,0 +1,17 @@
+#users-list {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+
+}
+
+
+.item {
+
+    padding: 20px;
+    margin: 15px;
+    border: 2px solid salmon;
+    background-color: aquamarine;
+    text-align: center;
+}
