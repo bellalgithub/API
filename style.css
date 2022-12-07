@@ -1,3 +1,5 @@
+/* API practice for 10 user's  */
+
 #users-list {
 
     display: grid;
@@ -14,4 +16,22 @@
     border: 2px solid salmon;
     background-color: aquamarine;
     text-align: center;
+}
+
+/* API practice for 100 post  */
+
+.userPost {
+    padding: 20px;
+    margin: 15px;
+    border: 2px solid rgb(170, 218, 170);
+    background-color: rgb(187, 137, 234);
+    text-align: center;
+
+}
+
+#users-post {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: bisque;
+    list-style: none;
 }
