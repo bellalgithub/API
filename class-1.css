@@ -1,0 +1,35 @@
+/* <!-- ---------------------> 10 users practice API <---------------------------------------- --> */
+
+#user-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+}
+
+
+.user-class {
+    border: 2px solid #72fab4;
+    margin: 20px;
+    padding: 20px;
+    background-color: #22800075;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+/* -----------------> 100 posts practice API <--------------------------------- */
+
+#user-post {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+}
+
+.post-class {
+    border: 2px solid #ffa5004d;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffc0cb70;
+    border-radius: 5px;
+}
