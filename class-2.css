@@ -1,0 +1,14 @@
+/* <!-- World Countries Tour for Practice API --> */
+#country-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.country-class {
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid gray;
+    background-color: #ffa07a54;
+    text-align: center;
+    border-radius: 5px;
+}
